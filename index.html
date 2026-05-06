@@ -150,7 +150,7 @@
     <div class="wrap two-col flush-top">
       <div>
         <p>Tracts can be useful for visualizing demographics like income:</p>
-        <div id="observablehq-phillyHex-76b05def"></div>
+        <div id="observablehq-phillyHex-d3a63a06"></div>
       </div>
       <div>
         <p>Or the racial majority of a population in a specific area:</p>
@@ -292,6 +292,7 @@
     new Runtime().module(define, name => {
       if (name === "fallingHouse2") return new Inspector(document.querySelector("#observablehq-fallingHouse2-d3a63a06"));
       if (name === "phillyTract") return new Inspector(document.querySelector("#observablehq-phillyTract-d3a63a06"));
+      if (name === "phillyHex") return new Inspector(document.querySelector("#observablehq-phillyHex-d3a63a06"));
       if (name === "majorityRaceHex") return new Inspector(document.querySelector("#observablehq-majorityRaceHex-d3a63a06"));
       if (name === "sufficientTracts") return new Inspector(document.querySelector("#observablehq-sufficientTracts-d3a63a06"));
       if (name === "barbelPlot2") return new Inspector(document.querySelector("#observablehq-barbelPlot2-d3a63a06"));
