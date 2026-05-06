@@ -129,7 +129,7 @@ ul {
 ul li { margin-bottom: 0.4rem; }
 
 a { color: var(--navy); }
-strong { color: var(--navy); }
+strong { color: #0a2d52; font-weight: 700; }
 
 /* ── Image containers ── */
 .img-narrow { max-width: 600px; margin: 0 auto; }
@@ -180,7 +180,13 @@ footer {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.85rem;
 }
-footer .wrap { padding: 1.5rem 2rem; }
+footer .wrap { padding: 2.5rem 2rem; }
+.footer-sources {
+  font-family: var(--body); /* Merriweather Sans */
+  font-size: 14px;
+  margin-top: 0.75rem;
+}
+footer strong { color: inherit; } /* override global strong { color: navy } inside footer */
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
