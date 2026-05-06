@@ -1,10 +1,10 @@
 :root {
-  --maroon:   #4a0e0e;
-  --gray-bg:  #e8e5e0;
+  --maroon:   #6b1a1a;
+  --warm-bg:  #fef6d5;
   --charcoal: #1a1a1a;
 
-  --serif: 'DM Serif Display', Georgia, serif;
-  --body:  'DM Sans', Georgia, serif;
+  --serif: 'Merriweather', Georgia, serif;
+  --body:  'Merriweather Sans', sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -19,8 +19,31 @@ body {
 
 /* ── Sections ── */
 .section-white { background: #fff; }
-.section-gray  { background: var(--gray-bg); }
+.section-gray  { background: var(--warm-bg); }
 .section-dark  { background: var(--charcoal); }
+.section-white + .section-white { border-top: 1px solid #ece7df; }
+
+/* ── Hero ── */
+.section-dark .wrap { padding: 6rem 2rem; }
+
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.hero-deck {
+  font-family: var(--body);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.72);
+  max-width: 55ch;
+  margin: 0 auto;
+  line-height: 1.65;
+}
 
 /* ── Layout ── */
 .wrap {
@@ -61,10 +84,21 @@ h2.accent { color: var(--maroon); }
 }
 .display.accent { color: var(--maroon); }
 
+.lead {
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: #444;
+  margin-bottom: 1.25rem;
+  max-width: 65ch;
+}
+
 .callout {
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.75;
   margin-bottom: 1rem;
+  border-left: 3px solid var(--maroon);
+  background: var(--warm-bg);
+  padding: 1rem 1.25rem;
 }
 
 .bold { font-weight: 600; font-size: 1.05rem; }
@@ -82,7 +116,7 @@ ul li { margin-bottom: 0.4rem; }
 
 /* ── Formula ── */
 .formula {
-  background: var(--gray-bg);
+  background: var(--warm-bg);
   border-left: 4px solid var(--maroon);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
@@ -116,10 +150,17 @@ ul li { margin-bottom: 0.4rem; }
   justify-content: space-between;
   gap: 1rem;
   padding: 0.75rem 1rem;
-  background: var(--gray-bg);
+  background: var(--warm-bg);
   font-size: 0.875rem;
   margin: 1.5rem 0;
 }
+
+/* ── Observable charts ── */
+/* [id^="observablehq-"] figure,
+[id^="observablehq-"] svg {
+  display: block;
+  margin: 0 auto;
+} */
 
 /* ── Footer ── */
 footer {
