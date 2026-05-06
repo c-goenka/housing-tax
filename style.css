@@ -237,3 +237,37 @@ h3:has(+ .ratio-list) {
 .two-col.align-top {
   align-items: end;
 }
+
+/* ── IAAO Criteria Cards ── */
+.criteria-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.criteria-card {
+  background: var(--card-bg-blue);
+  border-top: 3px solid var(--navy);
+  border-radius: 6px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.criteria-card strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.criteria-card p {
+  font-size: 0.95rem;
+  margin: 0;
+  max-width: none;
+}
+
+@media (max-width: 768px) {
+  .criteria-cards { grid-template-columns: 1fr; }
+}
