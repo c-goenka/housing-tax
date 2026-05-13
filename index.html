@@ -247,6 +247,16 @@
     </div>
   </section>
 
+  <!-- SLOPEGRAPH -->
+  <section class="section-white">
+    <div class="wrap narrow">
+      <p>In the years leading up to 2022, Philadelphia’s property assessments lagged behind a rapidly changing real estate market. Because the city paused citywide reassessments during the COVID-19 pandemic, official property values remained frozen at 2019 levels while actual market sale prices continued to climb. This created a COVID-19 Lag, where nearly all census tracts were technically under-assessed, resulting in assessment ratios falling well below the 1.0 fair-assessment line. On the graph, this is reflected by the starting points of almost all lines in 2022, situated in the lower "Under-assessed" region. When the city finally implemented a new reassessment in 2023 to catch up with market realities, the correction was dramatic but uneven. While assessments rose across the board, the city’s methodology effectively overcorrected in specific communities. Majority-Black and Hispanic census tracts saw their assessment ratios surge, with many lines on the graph climbing steeply into the "Over-assessed" zone above 1.0. This means that in these neighborhoods, the city’s estimated value often surpassed what the homes could actually fetch on the open market.</p>
+    </div>
+    <div class="wrap flush-top">
+      <div id="observablehq-slopeChart-d3a63a06"></div>
+    </div>
+  </section>
+
   <!-- SCATTER PLOTS -->
   <section class="section-white">
     <div class="wrap two-col align-top" style="margin-top: -10px;">
@@ -300,6 +310,9 @@
       if (name === "timelineAssessments") return new Inspector(document.querySelector("#observablehq-timelineAssessments-d3a63a06"));
       if (name === "blackAssessmentRatio") return new Inspector(document.querySelector("#observablehq-blackAssessmentRatio-d3a63a06"));
       if (name === "whiteAssessmentRatio") return new Inspector(document.querySelector("#observablehq-whiteAssessmentRatio-d3a63a06"));
+      if (name === "slopeChart") return new Inspector(document.querySelector("#observablehq-slopeChart-d3a63a06"));
+      if (name === "directionHex") return new Inspector(document.querySelector("#observablehq-directionHex-d3a63a06"));
+      if (name === "salesVolumeChart") return new Inspector(document.querySelector("#observablehq-salesVolumeChart-d3a63a06"));
     });
   </script>
   <script type="module">
