@@ -203,11 +203,11 @@
           <p><strong>Accurate Assessment:</strong> A ratio of 1.0 means the city assessed the property at exactly its market value, a perfectly accurate assessment.</p>
         </div>
         <div class="ratio-row">
-          <span class="badge under">below 1.0</span>
-          <p><strong>Under-assessment:</strong> A ratio below 1.0 means the property was underassessed; the city thinks it's worth less than buyers actually paid.</p>
+          <span class="badge under">Below 1.0</span>
+          <p><strong>Under-assessment:</strong> A ratio below 1.0 means the property was under-assessed; the city thinks it's worth less than buyers actually paid.</p>
         </div>
         <div class="ratio-row">
-          <span class="badge over">above 1.0</span>
+          <span class="badge over">Above 1.0</span>
           <p><strong>Over-assessment:</strong> A ratio above 1.0 means the property was over-assessed, the city thinks it's worth more than buyers paid.</p>
         </div>
       </div>
@@ -215,8 +215,8 @@
       <p><strong>This matters because property taxes are based on assessed value.</strong> Homeowners in over-assessed properties pay more in taxes relative to their home's actual market value, a hidden financial burden that, as the chart below shows, <strong>falls disproportionately on Black and Hispanic neighborhoods in Philadelphia</strong>.</p>
 
       <div class="label-strip">
-        <span>← Underassessed: homeowners pay less in taxes</span>
-        <span>Overassessed: homeowners pay more in taxes →</span>
+        <span>← Under-assessed: homeowners pay less in taxes</span>
+        <span>Over-assessed: homeowners pay more in taxes →</span>
       </div>
     </div>
   </section>
@@ -248,7 +248,7 @@
   <!-- SLOPEGRAPH -->
   <section class="section-white">
     <div class="wrap narrow">
-      <p>In the years leading up to 2022, Philadelphia’s property assessments lagged behind a rapidly changing real estate market. Because the city paused citywide reassessments during the COVID-19 pandemic, most official property values experienced a percentage adjustment of 2019 levels while actual market sale prices continued to climb [7]. This created a COVID-19 lag, where nearly all census tracts were technically under-assessed, resulting in assessment ratios falling well below the 1.0 fair-assessment line. On the graph, this is reflected by the starting points of almost all lines in 2022, situated in the lower "Under-assessed" region. When the city finally reassessed property values in 2023, using a new methodology, the correction was dramatic but uneven. While assessments rose across the board, the city’s methodology effectively overcorrected in specific communities. Majority-Black and Hispanic census tracts saw their assessment ratios surge, with many lines on the graph climbing steeply into the "Over-assessed" zone above 1.0. This means that in these neighborhoods, the city’s estimated value often surpassed what the homes could actually fetch on the open market.</p>
+      <p>In the years leading up to 2022, Philadelphia's property assessments lagged behind a rapidly changing real estate market. Because the city paused citywide reassessments during the COVID-19 pandemic, most official property values experienced a percentage adjustment of 2019 levels while actual market sale prices continued to climb [7]. This created a COVID-19 lag, where nearly all census tracts were technically under-assessed, resulting in assessment ratios falling well below the 1.0 fair-assessment line. On the graph, this is reflected by the starting points of almost all lines in 2022, situated in the lower "Under-assessed" region. When the city finally reassessed property values in 2023, using a new methodology, the correction was dramatic but uneven. While assessments rose across the board, the city's methodology effectively overcorrected in specific communities. Majority-Black and Hispanic census tracts saw their assessment ratios surge, with many lines on the graph climbing steeply into the "Over-assessed" zone above 1.0. This means that in these neighborhoods, the city's estimated value often surpassed what the homes could actually fetch on the open market.</p>
     </div>
     <div class="wrap super-narrow center flush-top">
       <div id="observablehq-slopeChart-d3a63a06"></div>
@@ -284,23 +284,47 @@
   </section>
 
   <!-- FOOTER -->
+  <!-- <footer>
+    <div class="wrap super-duper-narrow center">
+      <p><strong>Authors:</strong></p>
+      <p>Ella Montgomery, Madeleine Melcher, and Chetan Goenka</p>
+      <p><strong>Sources:</strong></p>
+      <p style="text-align: left;">[1] Stiver, S. (2025, April 14). Home assessed value vs. market value. Zillow. https://www.zillow.com/learn/assessed-value-vs-market-value/</p>
+      <p style="text-align: left;">[2] Avenancio-León, C., & Howard, T. (2022). The assessment gap: Racial inequalities in property taxation. Quarterly Journal of Economics, 137(3), 1383–1434. https://doi.org/10.1093/qje/qjac009</p>
+      <p style="text-align: left;">[3] The Encyclopedia of Greater Philadelphia. (2022). City of homes. https://philadelphiaencyclopedia.org/themes/city-of-homes/</p>
+      <p style="text-align: left;">[4] United States Census Bureau. (n.d.-b). Tract. In Census Bureau glossary. Retrieved May 9, 2026, from https://www.census.gov/glossary/?term=Tract</p>
+      <p style="text-align: left;">[5],[6] Reinvestment Fund. (2024, April). Examining the accuracy, uniformity & equity of Philadelphia's 2023 real estate tax Assessments. https://www.reinvestment.com/insights/examining-the-accuracy-uniformity-equity-of-philadelphias-2023-real-estate-assessments/</p>
+      <p style="text-align: left;">[7] Pew Research Center. (2022). How Property Is Taxed in Philadelphia. https://www.pew.org/en/research-and-analysis/reports/2022/09/how-property-is-taxed-in-philadelphia</p>
+      <p style="text-align: left;">[8] Office of Property Assessment Mass Appraisal Valuation Methodology Overview. (n.d.).  https://www.phila.gov/media/20220525080608/tax-year-2023-mass-appraisal-valuation-methodology.pdf</p>
+      <p><strong>Data:</strong></p>
+      <p style="text-align: left;">Open Data Philadelphia, (n.d.). Philadelphia property assessments data and maps [Data set]. https://opendataphiladelphia.com/property-assessments</p>
+      <p style="text-align: left;">OpenDataPhilly. (n.d.-a). Census tracts [Dataset]. https://opendataphilly.org/datasets/census-tracts/</p>
+      <p style="text-align: left;">OpenDataPhilly. (n.d.-b). Philadelphia properties and assessment history. https://opendataphilly.org/datasets/philadelphia-properties-and-assessment-history/</p>
+      <p style="text-align: left;">OpenDataPhilly. (n.d.-c). Real estate transfers [Data set]. https://opendataphilly.org/datasets/real-estate-transfers/</p>
+      <p><strong>Icons:</strong></p>
+      <p style="text-align: left;">Freepik. (n.d.). Icons [Graphics]. Retrieved May 1, 2026, from https://www.flaticon.com/authors/gradient-isometric/gradient?author_id=1&type=standard</p>
+    </div>
+  </footer> -->
+
   <footer>
     <div class="wrap center">
-      <p>By Ella Montgomery, Madeleine Melcher, and Chetan Goenka</p>
+      <p><strong>Authors:</strong></p>
+      <p>Ella Montgomery, Madeleine Melcher, and Chetan Goenka</p>
       <p><strong>Sources:</strong></p>
       <p>[1] Stiver, S. (2025, April 14). Home assessed value vs. market value. Zillow. https://www.zillow.com/learn/assessed-value-vs-market-value/</p>
       <p>[2] Avenancio-León, C., & Howard, T. (2022). The assessment gap: Racial inequalities in property taxation. Quarterly Journal of Economics, 137(3), 1383–1434. https://doi.org/10.1093/qje/qjac009</p>
       <p>[3] The Encyclopedia of Greater Philadelphia. (2022). City of homes. https://philadelphiaencyclopedia.org/themes/city-of-homes/</p>
       <p>[4] United States Census Bureau. (n.d.-b). Tract. In Census Bureau glossary. Retrieved May 9, 2026, from https://www.census.gov/glossary/?term=Tract</p>
       <p>[5],[6] Reinvestment Fund. (2024, April). Examining the accuracy, uniformity & equity of Philadelphia's 2023 real estate tax Assessments. https://www.reinvestment.com/insights/examining-the-accuracy-uniformity-equity-of-philadelphias-2023-real-estate-assessments/</p>
-      <p>[7] PEW Research Center. (2022). How Property Is Taxed in Philadelphia. https://www.pew.org/en/research-and-analysis/reports/2022/09/how-property-is-taxed-in-philadelphia</p>
+      <p>[7] Pew Research Center. (2022). How Property Is Taxed in Philadelphia. https://www.pew.org/en/research-and-analysis/reports/2022/09/how-property-is-taxed-in-philadelphia</p>
       <p>[8] Office of Property Assessment Mass Appraisal Valuation Methodology Overview. (n.d.).  https://www.phila.gov/media/20220525080608/tax-year-2023-mass-appraisal-valuation-methodology.pdf</p>
-      <p><strong>Data</strong></p>
+      <p><strong>Data:</strong></p>
       <p>Open Data Philadelphia, (n.d.). Philadelphia property assessments data and maps [Data set]. https://opendataphiladelphia.com/property-assessments</p>
       <p>OpenDataPhilly. (n.d.-a). Census tracts [Dataset]. https://opendataphilly.org/datasets/census-tracts/</p>
       <p>OpenDataPhilly. (n.d.-b). Philadelphia properties and assessment history. https://opendataphilly.org/datasets/philadelphia-properties-and-assessment-history/</p>
       <p>OpenDataPhilly. (n.d.-c). Real estate transfers [Data set]. https://opendataphilly.org/datasets/real-estate-transfers/</p>
-      
+      <p><strong>Icons:</strong></p>
+      <p>Freepik. (n.d.). Icons [Graphics]. Retrieved May 1, 2026, from https://www.flaticon.com/authors/gradient-isometric/gradient?author_id=1&type=standard</p>
     </div>
   </footer>
 

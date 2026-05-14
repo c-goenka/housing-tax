@@ -62,6 +62,7 @@ body {
 }
 .wrap.narrow  { max-width: 800px; }
 .wrap.super-narrow  { max-width: 700px; }
+.wrap.super-duper-narrow  { max-width: 500px; }
 .wrap.center  { text-align: center; }
 
 .two-col {
