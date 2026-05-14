@@ -61,6 +61,7 @@ body {
   padding: 3rem 3rem;
 }
 .wrap.narrow  { max-width: 800px; }
+.wrap.super-narrow  { max-width: 700px; }
 .wrap.center  { text-align: center; }
 
 .two-col {
@@ -196,6 +197,12 @@ footer strong { color: inherit; }
   align-items: center;
 }
 
+.wrap:not(.two-col) > div[id^="observablehq-"] .observablehq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .wrap narrow h3,
 h3:has(+ .ratio-list) {
   background: #f9f9f9;
@@ -282,7 +289,7 @@ figure h2 {
   font-size: 1.1rem;
   font-weight: 700;
   color: #000;
-  margin: 0 0 0.5rem 0 !important;  /* space below title */
+  margin: 0 0 0.5rem 0 !important;
   padding: 0 !important;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -294,7 +301,7 @@ figure h3 {
   font-size: 0.85rem;
   font-weight: 400;
   color: var(--charcoal);
-  margin: -0.25rem 0 0.5rem 0 !important;  /* tighter to title above, space below */
+  margin: -0.25rem 0 0.5rem 0 !important;
   padding: 0 !important;
   letter-spacing: 0;
   text-transform: none;
@@ -305,7 +312,7 @@ figure h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  align-items: start;  /* changed from 'center' */
+  align-items: start;
 }
 
 .two-col.align-stretch {
@@ -321,4 +328,3 @@ figure h3 {
   display: flex;
   align-items: center;
 }
-
