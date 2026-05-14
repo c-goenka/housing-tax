@@ -271,3 +271,13 @@ h3:has(+ .ratio-list) {
 @media (max-width: 768px) {
   .criteria-cards { grid-template-columns: 1fr; }
 }
+
+/* ── Chart titles ── */
+figure h2 {
+  font-family: var(--body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 0.25rem;
+  letter-spacing: 0;
+}
