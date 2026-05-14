@@ -63,10 +63,6 @@ body {
 .wrap.narrow  { max-width: 800px; }
 .wrap.center  { text-align: center; }
 
-.wrap.narrow p {
-  max-width: 680px;
-}
-
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
