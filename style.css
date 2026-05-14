@@ -305,11 +305,9 @@ figure h3 {
   line-height: 1.4;
 }
 
-.two-col > div {
-  display: flex;
-  flex-direction: column;
-}
-
-.two-col > div > p:first-child {
-  min-height: 3rem;  /* ensures both paragraphs reserve same vertical space */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;  /* changed from 'center' */
 }
