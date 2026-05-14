@@ -279,5 +279,6 @@ figure h2 {
   font-weight: 600;
   color: var(--charcoal);
   margin-bottom: 0.25rem;
-  letter-spacing: 0;
+   letter-spacing: 0.05em;  /* ← bumped from 0 */
+  text-transform: uppercase;
 }
