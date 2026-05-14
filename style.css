@@ -304,3 +304,12 @@ figure h3 {
   text-transform: none;
   line-height: 1.4;
 }
+
+.two-col > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.two-col > div > p:first-child {
+  min-height: 3rem;  /* ensures both paragraphs reserve same vertical space */
+}
