@@ -280,5 +280,5 @@ figure h2 {
   color: var(--charcoal);
   margin-bottom: 0.25rem;
   letter-spacing: 0.05em;  /* ← bumped from 0 */
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
