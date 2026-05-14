@@ -60,10 +60,8 @@ body {
   margin: 0 auto;
   padding: 3rem 3rem;
 }
-.wrap.narrow  { 
-  max-width: 800px; 
-  margin: 0;
-  padding-left: 3rem;
+.wrap.narrow {
+  max-width: 1100px;
 }
 .wrap.center  { text-align: center; }
 
