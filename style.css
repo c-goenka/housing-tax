@@ -307,3 +307,10 @@ figure h3 {
   gap: 3rem;
   align-items: start;  /* changed from 'center' */
 }
+
+/* ── Plot tooltips & SVG text ── */
+figure[class^="plot-"] text,
+figure[class^="plot-"] tspan {
+  font-size: 0.85rem;
+  font-family: var(--body);
+}
