@@ -344,7 +344,6 @@ figure h3 {
 @media (max-width: 1500px) {
   .wrap.maps-row {
     grid-template-columns: 1fr;
-    max-width: 700px;
   }
 }
 
