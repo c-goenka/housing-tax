@@ -123,8 +123,8 @@ a { color: var(--navy); }
 strong { color: #0a2d52; font-weight: 700; }
 
 /* ── Image containers ── */
-.img-narrow { max-width: 600px; margin: 0 auto; }
-.img-wide   { max-width: 860px; margin: 0 auto; }
+.img-narrow { max-width: 600px; margin: 0; }
+.img-wide   { max-width: 860px; margin: 0; }
 .img-narrow img,
 .img-wide img { width: 100%; }
 
