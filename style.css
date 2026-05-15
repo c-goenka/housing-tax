@@ -301,6 +301,12 @@ figure h3 {
   line-height: 1.4;
 }
 
+figure h2,
+figure h3 {
+  align-self: flex-start;
+  text-align: left;
+}
+
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
