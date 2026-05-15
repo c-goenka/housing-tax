@@ -329,3 +329,31 @@ figure h3 {
   display: flex;
   align-items: center;
 }
+
+.maps-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.maps-row-scatter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.maps-row div[id^="observablehq-"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1500px) {
+  .maps-row { grid-template-columns: 1fr; }
+  .maps-row-scatter {
+    grid-template-columns: 1fr;
+    max-width: 700px;
+  }
+}
