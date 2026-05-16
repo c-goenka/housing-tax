@@ -366,10 +366,10 @@ div[id^="observablehq-"] figure {
 
 .chart-with-inset-legend .inset-legend {
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   right: 20px;
   background: rgba(255, 255, 255, 0.95);
-  padding: 0.75rem 1rem;
+  padding: 0.4rem 0.6rem;
   border: 1px solid #eaeaea;
   border-radius: 4px;
   z-index: 10;
