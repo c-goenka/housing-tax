@@ -134,21 +134,25 @@ strong { color: #2c2c2c; font-weight: 700; }
 
 /* ── Ratio rows ── */
 .ratio-list { display: flex; flex-direction: column; gap: 0.75rem; margin: 1rem 0 1.5rem; }
-.ratio-row  { display: flex; align-items: flex-start; gap: 0.75rem; }
+.ratio-row  { display: flex; gap: 0.75rem; }
 .ratio-row p { margin: 0; max-width: none; }
 
 .badge {
   flex-shrink: 0;
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
+  padding: 0.5rem 0.75rem;     /* increased vertical padding */
+  border-radius: 6px;
   font-family: var(--serif);
   font-weight: 700;
   font-size: 0.85rem;
   white-space: nowrap;
   min-width: 90px;
   text-align: center;
-  margin-top: 0.25rem;    /* ← add this for fine-tuning */
+  display: flex;                /* ← new */
+  align-items: center;          /* ← new — vertically center the text */
+  justify-content: center;      /* ← new — horizontally center the text */
+  align-self: stretch;          /* ← new — fill the parent's height */
 }
+
 .badge.neutral { background: #ddd;    color: #333; }
 .badge.under   { background: #d6eaf8; color: #1c4f78; }
 .badge.over    { background: #fadbd8; color: #7b241c; }
