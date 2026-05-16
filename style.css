@@ -6,8 +6,8 @@
 
   --serif: 'Merriweather', Georgia, serif;
   --body:  'Inter', sans-serif;
-  --card-bg-blue: #d4e5f1;
-  --card-accent-blue: #1e395d;
+  --card-bg-blue: #f0f0f0;
+  --card-accent-blue: ##2c2c2c;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -120,7 +120,7 @@ ul {
 ul li { margin-bottom: 0.4rem; }
 
 a { color: var(--navy); }
-strong { color: #0a2d52; font-weight: 700; }
+strong { color: #2c2c2c; font-weight: 700; }
 
 /* ── Image containers ── */
 .img-narrow { max-width: 600px; margin: 0; }
