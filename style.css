@@ -401,3 +401,9 @@ div[id^="observablehq-"] svg [aria-label*="axis"] line,
 div[id^="observablehq-"] svg [aria-label*="tick"] {
   stroke: #d0d0d0 !important;
 }
+
+/* Light gray frame around all Observable Plot charts */
+div[id^="observablehq-"] svg [aria-label="frame"] {
+  stroke: #d0d0d0 !important;
+  fill: none !important;
+}
