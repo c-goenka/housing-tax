@@ -244,14 +244,12 @@ h3:has(+ .ratio-list) {
   margin: 1.5rem 0;
 }
 
-.criteria-card {
-  background: var(--card-bg-blue);
-  border-top: 3px solid var(--card-accent-blue);
-  border-radius: 6px;
-  padding: 1.5rem;
-  display: flex;            /* ← added */
-  flex-direction: column;   /* ← added */
-  justify-content: center;  /* ← added */
+.criteria-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+  align-items: start;       /* ← added this */
 }
 
 .criteria-card strong {
