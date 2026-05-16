@@ -358,3 +358,21 @@ div[id^="observablehq-"] figure {
   margin-left: 0 !important;
   margin-right: auto !important;
 }
+
+/* ── Inset legend over chart ── */
+.chart-with-inset-legend {
+  position: relative;
+}
+
+.chart-with-inset-legend .inset-legend {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 0.75rem 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  z-index: 10;
+  font-size: 0.85rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
