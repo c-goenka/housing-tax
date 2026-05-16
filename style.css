@@ -246,7 +246,7 @@ h3:has(+ .ratio-list) {
 
 .criteria-card {
   background: var(--card-bg-blue);
-  border-top: 3px solid var(--navy);
+  border-top: 3px solid var(--card-accent-blue);
   border-radius: 6px;
   padding: 1.5rem;
 }
@@ -255,7 +255,7 @@ h3:has(+ .ratio-list) {
   display: block;
   font-family: var(--serif);
   font-size: 1.1rem;
-  color: var(--navy);
+  color: var(--charcoal);
   margin-bottom: 0.5rem;
 }
 
