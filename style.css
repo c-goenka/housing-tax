@@ -31,7 +31,7 @@ body {
 }
 
 /* ── Hero ── */
-.section-dark .wrap { padding: 6rem 2rem; }
+.section-dark .wrap { padding: 6rem 3rem; }
 
 .hero-title {
   font-family: var(--serif);
