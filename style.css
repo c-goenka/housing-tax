@@ -7,7 +7,7 @@
   --serif: 'Merriweather', Georgia, serif;
   --body:  'Inter', sans-serif;
   --card-bg-blue: #e1eef7;
-  --card-accent-blue: #1c4f78;
+  --card-accent-blue: #1e395d;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -23,7 +23,7 @@ body {
 /* ── Sections ── */
 .section-white { background: #fff; }
 .section-gray  { background: var(--warm-bg); }
-.section-dark { background: var(--navy); }
+.section-dark { background: var(--card-bg-blue); }
 .section-white + .section-white { border-top: 1px solid rgba(28, 79, 120, 0.15); }
 
 .section-gray .wrap {
