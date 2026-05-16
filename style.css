@@ -395,3 +395,9 @@ div[id^="observablehq-"] figure {
   margin-left: 0;
   margin-right: auto;
 }
+
+/* Light gray tick marks for all Observable Plot charts */
+div[id^="observablehq-"] svg [aria-label*="axis"] line,
+div[id^="observablehq-"] svg [aria-label*="tick"] {
+  stroke: #d0d0d0 !important;
+}
